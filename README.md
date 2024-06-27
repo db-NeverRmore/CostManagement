@@ -45,8 +45,10 @@ CostManagement is a personal finance management application developed using C# a
 > That's why you will have a choice of 2 options to start the project.
 
 VARIANT 1️⃣ - Wine 
-![Alt text](21.jpg)
-     #Ubuntu
+
+     # Ubuntu
+          First, check whether the system is 32 or 64 bit 
+          ![Alt text](21.jpg)
 
      #Arch Linux 
 

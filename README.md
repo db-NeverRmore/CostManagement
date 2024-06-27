@@ -43,20 +43,45 @@ CostManagement is a personal finance management application developed using C# a
 > **WARNING:** WPF was developed specifically for the Windows operating system, so it is very difficult to run this project on Linux distributions without extraneous tools, and the project is likely to work strangely.
 > 
 > That's why you will have a choice of 2 options to start the project.
+      
+VARIANT 1️⃣ - Wine
 
-VARIANT 1️⃣ - Wine 
+ # Ubuntu 
+ 1. Step 1
 
-     # Ubuntu
-          First, check whether the system is 32 or 64 bit 
-          ![Alt text](21.jpg)
+First, check whether the system is 32 or 64 bit 
+![Alt text](21.jpg)
+The first line is the bit capacity of your system. 
+         
+     
+  2. Step
 
-     #Arch Linux 
+Install the wine 
+----
 
-     #NixOs
+```bash 
+sudo apt install wine64
 
-     #Fedora
+```
+If you have 64 bit
 
-     #Debian 
+```bash
+sudo apt install wine32
+
+```
+
+Then check the version of wine 
+
+```bash
+wine --version
+
+```
+     
+     
+          
+
+   
+ 
      
 
    # Usage

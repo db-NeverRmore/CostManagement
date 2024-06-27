@@ -9,7 +9,11 @@ CostManagement is a personal finance management application developed using C# a
 - **View Total Balance**: Displays the total balance of all expenses.
 
 # Installation 
+
+```markdown
  Variant 1
+ ```
+
  1. Clone the repository in any folder on your pc.
     
   ```bash

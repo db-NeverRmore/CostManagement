@@ -1,14 +1,19 @@
+
 # CostManagement
 CostManagement is a personal finance management application developed using C# and WPF. 
      It allows users to add, edit and delete expenses, as well as view the total balance.
+
+ # ATTENTION  ❗ ❗ ❗
+ 
+  The project was designed for training purposes, it will not be developed further.
      
-# Functions ❗
+# Functions 
 - **Add Expenses**: Allows users to add new expenses by specifying a description, amount and date.
 - **Edit Expenses**: Allows users to edit existing expenses.
 - **Deleting Expenses**: Allows users to delete existing expenses.
 - **View Total Balance**: Displays the total balance of all expenses.
 
-# Installation for Windows ❗
+# Installation for Windows 
 
 
  VARIANT 1️⃣
@@ -38,6 +43,19 @@ CostManagement is a personal finance management application developed using C# a
 > **WARNING:** WPF was developed specifically for the Windows operating system, so it is very difficult to run this project on Linux distributions without extraneous tools, and the project is likely to work strangely.
 > 
 > That's why you will have a choice of 2 options to start the project.
+
+VARIANT 1️⃣ - Wine 
+
+     #Ubuntu
+
+     #Arch Linux 
+
+     #NixOs
+
+     #Fedora
+
+     #Debian 
+     
 
    # Usage
 1. Open the project which you have clonned

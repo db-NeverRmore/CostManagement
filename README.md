@@ -54,17 +54,14 @@ First, check whether the system is 32 or 64 bit
 The first line is the bit capacity of your system. 
          
      
-  2. Step
-
-Install the wine 
-----
-
+  2. Step 2 - Install the wine 
+If you have 64 bit
 ```bash 
 sudo apt install wine64
 
 ```
-If you have 64 bit
 
+If you have 32 bit
 ```bash
 sudo apt install wine32
 

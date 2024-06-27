@@ -37,6 +37,15 @@ CostManagement is a personal finance management application developed using C# a
   3.  Then in the list of your projects you will see cloned repostiry.
 
 
+   # Usage
+1. Open the project which you have clonned
+      
+2. Build the project with CTRL+f5 (keys by default to build the project ) or click the button on a toolbar.
+
+3. Enjoy ! ✅
+
+
+
 
 # Installation for Linux ❗
 
@@ -70,14 +79,6 @@ cd CostManagement
    
  
      
-
-   # Usage
-1. Open the project which you have clonned
-      
-2. Build the project with CTRL+f5 (keys by default to build the project ) or click the button on a toolbar.
-
-3. Enjoy ! ✅
-
 
      
 

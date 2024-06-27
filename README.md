@@ -42,39 +42,29 @@ CostManagement is a personal finance management application developed using C# a
 
 > **WARNING:** WPF was developed specifically for the Windows operating system, so it is very difficult to run this project on Linux distributions without extraneous tools, and the project is likely to work strangely.
 > 
-> That's why you will have a choice of 2 options to start the project.
+> But since Ubunta has an SDK package in its repositories, we can easily run the project 
       
-VARIANT 1️⃣ - Wine
+------------------------------------
 
  # Ubuntu 
- 1. Step 1
+ 1. Step 1  -  Install the SDK
 
-First, check whether the system is 32 or 64 bit 
-![Alt text](21.jpg)
-The first line is the bit capacity of your system. 
-         
-     
-  2. Step 2 - Install the wine 
-If you have 64 bit
-```bash 
-sudo apt install wine64
+ ```bash
+    sudo apt-get update && \
+  sudo apt-get install -y dotnet-sdk-8.0
+ ```
 
 ```
-
-If you have 32 bit
+sudo apt-get update && \
+  sudo apt-get install -y aspnetcore-runtime-8.0
+```
+     
+2. Step 2 - Build the project
+   
 ```bash
-sudo apt install wine32
-
+cd CostManagement
 ```
 
-Then check the version of wine 
-
-```bash
-wine --version
-
-```
-     
-     
           
 
    

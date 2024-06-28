@@ -81,12 +81,30 @@ When you have builded your project  you must run it
 ```bash
 dotnet run
 ```
+
+
+
+
  # Arch
   1. Step 1  -  Install the SDK
 
      ```bash
      sudo pacman -S dotnet-runtime dotnet-sdk
      ```
+     
+  2. Step 2 - Build the project
+
+  ```bash
+cd CostManagement
+```
+```bash
+dotnet build
+```
+When you have builded your project  you must run it
+
+```bash
+dotnet run
+```
      
 ---------------------------------
 
@@ -103,6 +121,7 @@ Then paste this string
 ``` bash
     export PATH="$PATH:$HOME/.dotnet/tools"
 ```
+------------------------------------
 
 - If you use fish 
 
@@ -120,7 +139,35 @@ set -gx PATH $PATH ~/.dotnet/tools
 
 ---------------------------------
  
- 
+
+
+ # Fedora
+
+   1. Step 1  -  Install the SDK
+
+     ```bash
+    sudo dnf install dotnet-sdk-8.0
+     ```
+
+     ```bash
+     sudo dnf install aspnetcore-runtime-8.0
+     ```
+     
+  2. Step 2 - Build the project
+
+  ```bash
+cd CostManagement
+```
+```bash
+dotnet build
+```
+When you have builded your project  you must run it
+
+```bash
+dotnet run
+```
+
+
     
 
      

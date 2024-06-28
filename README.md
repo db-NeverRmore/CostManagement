@@ -10,7 +10,9 @@ CostManagement is a personal finance management application developed using C# a
  # ATTENTION  ❗ ❗ ❗
  
   The project was designed for training purposes, it will not be developed further.
-     
+     ⠀⠀
+     ⠀⠀
+     ⠀⠀
 # Functions 
 - **Add Expenses**: Allows users to add new expenses by specifying a description, amount and date.
 - **Edit Expenses**: Allows users to edit existing expenses.

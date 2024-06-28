@@ -6,6 +6,7 @@
 CostManagement is a personal finance management application developed using C# and WPF. 
      It allows users to add, edit and delete expenses, as well as view the total balance.
 
+
  # ATTENTION  ❗ ❗ ❗
  
   The project was designed for training purposes, it will not be developed further.
@@ -56,12 +57,12 @@ CostManagement is a personal finance management application developed using C# a
 
 > **WARNING:** WPF was developed specifically for the Windows operating system, so it is very difficult to run this project on Linux distributions without extraneous tools, and the project is likely to work strangely.
 > 
-> But since Ubunta has an SDK package in its repositories, we can easily run the project 
+> But since Ubunta has an SDK package in its repositories, we can easily run the project using wine
       
 ------------------------------------
 
  # Ubuntu 
- 1. Step 1  -  Install the SDK
+ 1. Step 1  -  Install  SDK
 
  ```bash
  sudo apt-get update && \
@@ -72,8 +73,19 @@ CostManagement is a personal finance management application developed using C# a
 sudo apt-get update && \
 sudo apt-get install -y aspnetcore-runtime-8.0
 ```
+
+2. Step 2  - Install wine
+
+ ```bash
+sudo dpkg --add-architecture i386
+
+sudo add-apt-repository ppa:wine/wine-builds && sudo apt-get update
+
+sudo apt-get install --install-recommends winehq-devel
+
+```
      
-2. Step 2 - Build the project    🔨
+3. Step 3 - Build the project    🔨
    
 ```bash
 cd CostManagement
@@ -81,13 +93,19 @@ cd CostManagement
 ```bash
 dotnet build
 ```
-When you have builded your project  you must run it ✅
-
-```bash
-dotnet run
-```
 
 
+4. Step 4 - use wine to run your project
+
+   ```bash
+   wine path/to/your/CostManagement.exe
+   ```
+   
+   OR
+
+   ```bash
+   wine CostManagement.exe
+   ```
 
 
  # Arch
@@ -97,7 +115,7 @@ dotnet run
      sudo pacman -S dotnet-runtime dotnet-sdk
      ```
      
-  2. Step 2 - Build the project   🔨
+  3. Step 3 - Build the project   🔨
 
   ```bash
 cd CostManagement
@@ -110,7 +128,18 @@ When you have builded your project  you must run it ✅
 ```bash
 dotnet run
 ```
-     
+
+     4. Step 4 - use wine to run your project
+
+   ```bash
+   wine path/to/your/CostManagement.exe
+   ```
+   
+   OR
+
+   ```bash
+   wine CostManagement.exe
+   ```
 ---------------------------------
 
  Also you need add dotnet to PATH, otherwise dotnet commands wont work from your shell.
@@ -158,7 +187,7 @@ set -gx PATH $PATH ~/.dotnet/tools
      sudo dnf install aspnetcore-runtime-8.0
      ```
      
-  2. Step 2 - Build the project    🔨
+  3. Step 3 - Build the project    🔨
 
   ```bash
 cd CostManagement
@@ -171,6 +200,18 @@ When you have builded your project  you must run it ✅
 ```bash
 dotnet run
 ```
+
+4. Step 4 - use wine to run your project
+
+   ```bash
+   wine path/to/your/CostManagement.exe
+   ```
+   
+   OR
+
+   ```bash
+   wine CostManagement.exe
+   ```
 
 ---------------------------------   
 

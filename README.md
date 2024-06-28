@@ -16,19 +16,21 @@ CostManagement is a personal finance management application developed using C# a
 # Installation for Windows 
 
 
- VARIANT 1️⃣
+ VARIANT 1️ ✧
 
 
  1. Clone the repository in any folder on your pc.
     
+    
   ```bash
         https://github.com/db-NeverRmore/CostManagement.git
   ```
+
  2. Then open Visual Studio
 
  3.  Then press the button on a start page  " Open a project or solution "
 
-  VARIANT 2️⃣
+  VARIANT 2️ ✧
 
   1. Open Visual Studio
 
@@ -68,7 +70,7 @@ sudo apt-get update && \
 sudo apt-get install -y aspnetcore-runtime-8.0
 ```
      
-2. Step 2 - Build the project
+2. Step 2 - Build the project    🔨
    
 ```bash
 cd CostManagement
@@ -76,7 +78,7 @@ cd CostManagement
 ```bash
 dotnet build
 ```
-When you have builded your project  you must run it
+When you have builded your project  you must run it ✅
 
 ```bash
 dotnet run
@@ -92,7 +94,7 @@ dotnet run
      sudo pacman -S dotnet-runtime dotnet-sdk
      ```
      
-  2. Step 2 - Build the project
+  2. Step 2 - Build the project   🔨
 
   ```bash
 cd CostManagement
@@ -100,7 +102,7 @@ cd CostManagement
 ```bash
 dotnet build
 ```
-When you have builded your project  you must run it
+When you have builded your project  you must run it ✅
 
 ```bash
 dotnet run
@@ -153,7 +155,7 @@ set -gx PATH $PATH ~/.dotnet/tools
      sudo dnf install aspnetcore-runtime-8.0
      ```
      
-  2. Step 2 - Build the project
+  2. Step 2 - Build the project    🔨
 
   ```bash
 cd CostManagement
@@ -161,14 +163,13 @@ cd CostManagement
 ```bash
 dotnet build
 ```
-When you have builded your project  you must run it
+When you have builded your project  you must run it ✅
 
 ```bash
 dotnet run
 ```
 
-
-    
+---------------------------------   
 
      
           

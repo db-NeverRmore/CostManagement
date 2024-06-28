@@ -59,13 +59,13 @@ CostManagement is a personal finance management application developed using C# a
  1. Step 1  -  Install the SDK
 
  ```bash
-    sudo apt-get update && \
+ sudo apt-get update && \
   sudo apt-get install -y dotnet-sdk-8.0
  ```
 
 ```
 sudo apt-get update && \
-  sudo apt-get install -y aspnetcore-runtime-8.0
+sudo apt-get install -y aspnetcore-runtime-8.0
 ```
      
 2. Step 2 - Build the project
@@ -73,7 +73,57 @@ sudo apt-get update && \
 ```bash
 cd CostManagement
 ```
+```bash
+dotnet build
+```
+When you have builded your project  you must run it
 
+```bash
+dotnet run
+```
+ # Arch
+  1. Step 1  -  Install the SDK
+
+     ```bash
+     sudo pacman -S dotnet-runtime dotnet-sdk
+     ```
+     
+---------------------------------
+
+ Also you need add dotnet to PATH, otherwise dotnet commands wont work from your shell.
+
+- If you use bash 
+
+```bash
+    nano ~/.bashrc
+```
+
+Then paste this string
+
+``` bash
+    export PATH="$PATH:$HOME/.dotnet/tools"
+```
+
+- If you use fish 
+
+```bash
+     nano ~/.config/fish/config.fish
+```
+
+Then paste this string
+
+```bash
+set -gx PATH $PATH ~/.dotnet/tools
+```
+
+
+
+---------------------------------
+ 
+ 
+    
+
+     
           
 
    

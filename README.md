@@ -17,6 +17,12 @@ CostManagement is a personal finance management application developed using C# a
 - **Deleting Expenses**: Allows users to delete existing expenses.
 - **View Total Balance**: Displays the total balance of all expenses.
 
+# Dependencies  
+
+- .NET 8
+- Visual Studio 2022 or Visual Studio 2019
+- Windows 7 and higher
+
 # Installation for Windows 
 
 

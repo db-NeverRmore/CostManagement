@@ -131,13 +131,11 @@ cd CostManagement
 ```bash
 dotnet build
 ```
-When you have builded your project  you must run it ✅
 
-```bash
-dotnet run
-```
 
-     4. Step 4 - use wine to run your project
+
+
+ 4. Step 4 - use wine to run your project
 
    ```bash
    wine path/to/your/CostManagement.exe
@@ -203,11 +201,7 @@ cd CostManagement
 ```bash
 dotnet build
 ```
-When you have builded your project  you must run it ✅
 
-```bash
-dotnet run
-```
 
 4. Step 4 - use wine to run your project
 

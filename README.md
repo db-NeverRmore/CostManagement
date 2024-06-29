@@ -65,7 +65,7 @@ CostManagement is a personal finance management application developed using C# a
 
 > **WARNING:** WPF was developed specifically for the Windows operating system, so it is very difficult to run this project on Linux distributions without extraneous tools, and the project is likely to work strangely.
 > 
-> But since Ubunta has an SDK package in its repositories, we can easily run the project using wine
+> But since Linux distribution have an SDK package in its repositories, we can easily run the project using wine
       
 ------------------------------------
 
@@ -217,12 +217,34 @@ dotnet build
 
 ---------------------------------   
 
-     
-          
 
+#Nix OS
+>Nix OS has declarative configuration, also you will must manual add  .NET SDK section in your configutaion.nix
+
+1. Step 1 - Install SDK and wine 
+
+```bash
+   environment.systemPackages = with pkgs; [
+   dotnet-sdk
+  (wine.override { wineBuild = "wine64"; })
    
+];
+```
+
+          
+```bash
+sudo nixos-rebuild switch
+```
+
  
-     
+  2. Step 2 - Build the project    🔨
+
+  ```bash
+cd CostManagement
+```
+```bash
+dotnet build
+```
 
      
 

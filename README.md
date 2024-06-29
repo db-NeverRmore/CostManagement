@@ -122,6 +122,12 @@ dotnet build
      ```bash
      sudo pacman -S dotnet-runtime dotnet-sdk
      ```
+
+  2. Step 2 - Install wine
+
+```bash
+sudo pacman -S wine
+```   
      
   3. Step 3 - Build the project   🔨
 
@@ -135,7 +141,7 @@ dotnet build
 
 
 
- 4. Step 4 - use wine to run your project
+ 4. Step 4 - Use wine to run your project
 
    ```bash
    wine path/to/your/CostManagement.exe
@@ -185,13 +191,18 @@ set -gx PATH $PATH ~/.dotnet/tools
 
    1. Step 1  -  Install the SDK
 
-     ```bash
+```bash
     sudo dnf install dotnet-sdk-8.0
-     ```
+```
+   2. Step 2 - Install wine
 
-     ```bash
+```bash
+sudo dnf install wine
+```
+
+```bash
      sudo dnf install aspnetcore-runtime-8.0
-     ```
+```
      
   3. Step 3 - Build the project    🔨
 
@@ -203,7 +214,7 @@ dotnet build
 ```
 
 
-4. Step 4 - use wine to run your project
+4. Step 4 - Use wine to run your project
 
    ```bash
    wine path/to/your/CostManagement.exe
@@ -246,6 +257,11 @@ cd CostManagement
 dotnet build
 ```
 
+3. Step 3 - Use wine to run your project
+
+   ```bash
+   wine path/to/your/CostManagement.exe
+   ```
      
 
 

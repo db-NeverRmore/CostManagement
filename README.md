@@ -259,9 +259,9 @@ dotnet build
 
 3. Step 3 - Use wine to run your project
 
-   ```bash
-   wine path/to/your/CostManagement.exe
-   ```
+```bash
+wine path/to/your/CostManagement.exe
+```
      
 
 

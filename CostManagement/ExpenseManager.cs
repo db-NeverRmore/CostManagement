@@ -4,23 +4,23 @@ using System.Linq;
 
 namespace CostManagement
 {
-    public class ExpenseManager
+    public class ExpenseManager 
     {
-        private List<Expense> expenses = new List<Expense>();
-        private int nextId = 1;
+        private List<Expense> expenses = new List<Expense>(); //список всех рассходов 
+        private int nextId = 1; // при новом расходе его айдишник будет увеличен
 
-        public void AddExpense(string description, decimal amount, DateTime date)
+        public void AddExpense(string description, decimal amount, DateTime date) // функция которая добавляет новый рассход 
         {
             expenses.Add(new Expense
             {
-                Id = nextId++,
+                Id = nextId++, // добавление айдишника для рассхода
                 Description = description,
                 Amount = amount,
                 Date = date
             });
         }
 
-        public void EditExpense(int id, string description, decimal amount, DateTime date)
+        public void EditExpense(int id, string description, decimal amount, DateTime date) // функциия для иземнения рассхода 
         {
             var expense = expenses.FirstOrDefault(e => e.Id == id);
             if (expense != null)
@@ -31,7 +31,7 @@ namespace CostManagement
             }
         }
 
-        public void DeleteExpense(int id)
+        public void DeleteExpense(int id) // удаления рассхода 
         {
             var expense = expenses.FirstOrDefault(e => e.Id == id);
             if (expense != null)
@@ -40,12 +40,12 @@ namespace CostManagement
             }
         }
 
-        public List<Expense> GetExpenses()
+        public List<Expense> GetExpenses() // функция для получения всех рассходов которые когда либо были
         {
             return expenses;
         }
 
-        public decimal GetTotalBalance()
+        public decimal GetTotalBalance() // функция для получения  баланса юзера
         {
             return expenses.Sum(e => e.Amount);
         }

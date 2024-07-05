@@ -1,4 +1,6 @@
-﻿namespace CostManagement.Models
+﻿using System;
+
+namespace CostManagement
 {
     public class Expense
     {
